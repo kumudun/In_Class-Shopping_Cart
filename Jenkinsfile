@@ -17,7 +17,7 @@ pipeline {
     stages{
         stage('check'){
             steps {
-                git branch: 'main', url: 'https://github.com/kumudun/Localization_Practice.git'
+                git branch: 'main', url: 'https://github.com/kumudun/In_Class-Shopping_Cart.git'
             }
         }
 
